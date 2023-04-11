@@ -1,0 +1,255 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.mother-container{
+    background-color:  rgb(14, 38, 47);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.mother-con1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:650px) {
+    .mother-con1{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        padding:0px 50px;
+        
+    }
+
+    .mother-con1 > .foot-box1{
+        height: 80px;
+        display: flex;
+        justify-content:center;
+        padding: 0px 10px;
+        margin-top: 10px;
+        
+    }
+
+    .mother-con1 > .foot-box2{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      
+    
+      
+       
+    }
+    .mother-con1 > .foot-box3{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      
+       
+    }
+}
+
+
+
+.foot-box1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.foot-box2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start ;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px 10px;
+
+    
+
+}
+
+.foot-box3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px 10px;
+    
+    
+
+}
+
+.mother-con1 .foot-box2 >a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.mother-con1 .foot-box3 >a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+
+.mother-con1 .foot-box1>img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.mother-con2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+     
+}
+
+@media screen and (max-width:650px) {
+    .mother-con2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        
+    } 
+    
+    .line-2 >.inner-line2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+
+    .inner-line2 >.box-1{
+        height: 30px;
+    }
+
+    .inner-line2 >.box-2{
+        height: 30px;
+    }
+
+    .inner-line2 >.box-3{
+        height: 40px;
+    }
+
+    .mother-con2 > .line-1{
+        width: 85%;
+        margin-left: 30px;
+    }
+
+    .mother-con2 .line-2 > .inner-line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    
+
+}
+
+.line-1{
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.line-2{
+    width:100% ;
+    height:fit-content ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.inner-line2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0px;
+    color: white;
+    
+
+}
+
+
+.box-2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0px ;
+    
+}
+
+.box-3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px 0px;
+    
+}
+
+.box-2 >a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.box-3 >img{
+    width: 30px;
+    height: 30px;
+}
